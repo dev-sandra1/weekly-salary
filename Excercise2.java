@@ -5,15 +5,15 @@ public class Excercise2 {
     public static void main(String[] args) {
         
          
-        char letra;
+        char letter;
 
-       letra =  JOptionPane.showInputDialog(null,"escribe una letra: ") .charAt (0);
+        letter =  JOptionPane.showInputDialog(null,"write a letter: ") .charAt (0);
 
-         if (Character.isUpperCase(letra)) {
-            JOptionPane.showMessageDialog(null,"es una letra mayuscula ");
+         if (Character.isUpperCase(letter)) {
+            JOptionPane.showMessageDialog(null,"is a capital letter");
 
          }else{
-              JOptionPane.showMessageDialog(null,"es una letra minuscula ");
+              JOptionPane.showMessageDialog(null,"it is a lowercase letter");
          }
 
     }

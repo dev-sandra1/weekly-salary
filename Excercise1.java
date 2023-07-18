@@ -4,7 +4,7 @@ public class Excercise1{
     public static void main(String[] args) {
         
         Scanner enter = new Scanner(System.in);
-        int salario;
+        int salary;
         int total;
         boolean close = false;
 
@@ -15,17 +15,17 @@ public class Excercise1{
         System.out.println(Character.isLowerCase(letter)); */
 
         do {
-             System.out.println("cuantas horas trabajastes? ");
-             salario = enter.nextInt();
+             System.out.println("how many hours did you work?: ");
+             salary = enter.nextInt();
 
-            if(salario <= 40){
-              total = salario * 16;
+            if(salary <= 40){
+              total = salary * 16;
 
-                System.out.println("tu salario es de:" + total);
+                System.out.println("your salary is: " + total);
 
             }else {
-                total = (40 * 16) + (salario - 40) * (20);
-                System.out.println("tu salario es de: " + total);
+                total = (40 * 16) + (salary - 40) * (20);
+                System.out.println("your salary is: " + total);
                 close = true;
             }        
 
